@@ -15,14 +15,16 @@ npm install -g argdown-png-export
 Local installation:
 
 ```
-npm install --save-dev argdown-png-export
+npm install argdown-png-export
 ```
+
+If you want to save the dependency in your `package.json` file, use `npm install --save-dev argdown-png.export`.
 
 Now you can add the plugin to argdown-cli in your argdown.config.js:
 
 ```Javascript
 const path = require("path");
-const SvgToPngExport = require("../index.js").SvgToPngExport;
+const SvgToPngExport = require("argdown-png-export").SvgToPngExport;
 
 let pluginSettings = {
   outputDir: path.resolve(__dirname, "./png/"), // the folder where you want to store your png files

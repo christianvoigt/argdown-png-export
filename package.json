@@ -1,6 +1,6 @@
 {
   "name": "argdown-png-export",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Png export plugin for argdown-cli",
   "main": "index.js",
   "scripts": {

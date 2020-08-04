@@ -1,3 +1,5 @@
+**This package is no longer updated. Please use [`@argdown/image-export`](https://github.com/christianvoigt/argdown/tree/master/packages/argdown-image-export) instead.**
+
 # PNG Export for argdown-cli
 
 This is a plugin for [argdown-cli](https://github.com/christianvoigt/argdown-cli) that will export Argdown argument maps as png files. This plugin is not part of argdown-cli itself because it relies on binaries of the Sharp image library that can cause installation problems on some operating systems and in the Argdown VS Code extension (that also relies on argdown-cli).
